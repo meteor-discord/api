@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "0.2.0",
+  "author": "Meteor Labs",
+  "license": "MIT",
+  "module": "src/app.ts",
+  "type": "module",
+  "engines": {
+    "bun": ">=1.1.38"
+  },
+  "scripts": {
+    "dev": "bun run --watch .",
+    "start": "bun run .",
+    "format": "dprint fmt",
+    "lint": "eslint .",
+    "preinstall": "bunx only-allow bun"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
+    "@elysiajs/swagger": "^1.1.6",
+    "captcha-canvas": "^2.3.1",
+    "elysia": "latest",
+    "elysia-autoload": "^1.4.0",
+    "elysia-rate-limit": "^4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/bun": "^1.1.14",
+    "dprint": "^0.47.6",
+    "eslint-plugin-regexp": "^2.7.0",
+    "typescript-eslint": "^8.17.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "bun@1.1.38"
+}

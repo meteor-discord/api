@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "gplane.dprint2",
+    "ms-azuretools.vscode-docker",
+    "github.vscode-github-actions"
+  ]
+}
